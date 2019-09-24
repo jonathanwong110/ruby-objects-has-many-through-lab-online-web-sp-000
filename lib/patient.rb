@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Patient
   attr_accessor :name, :appointment, :doctor
   
@@ -28,4 +29,19 @@ class Patient
     end
   end
   
+=======
+class Patient
+  attr_accessor :name
+  
+  @@all = []
+  
+  def initialize(name)
+    @name = name
+  end
+  
+  def self.all
+    @@all
+  end
+  
+>>>>>>> 7e4a25b4b997bfe976f8a4f01a4f5510f2783d3c
 end
